@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://queiauso.com/sitemap1.xml
+Sitemap: https://queiauso.com/sitemap.xml
