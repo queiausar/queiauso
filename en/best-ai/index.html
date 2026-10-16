@@ -489,7 +489,10 @@ html[lang=en] .hhero h1{font-size:30px}
 .phero h1{font-size:36px;letter-spacing:-.04em;line-height:1.05;max-width:none}
 .eyb{margin:0 0 8px;font-size:12.5px}
 .hscroll{bottom:6px;width:44px;height:44px}.hscroll-i .i{width:28px;height:28px;margin-top:-12px}
-.hart{min-height:200px}
+.hht .hchips{margin-top:12px;margin-bottom:6px;position:relative;z-index:2}
+.hhf{margin-top:10px}
+.hart{min-height:210px;overflow:hidden;isolation:isolate}
+.hartbg{width:min(46%,170px);bottom:10%;right:10%}
 .hs0,.hs5{width:72px;height:72px}.hs1{width:68px;height:68px}.hs2,.hs4{width:60px;height:60px}.hs3{width:76px;height:76px}.hs6{width:56px;height:56px}
 /* secciones y tipografía */
 section.sec{padding:28px 0 0}
@@ -583,7 +586,8 @@ html[lang=en] .hhero h1{font-size:28px}
 .phero h1{font-size:32px}
 .sh h2,main h2.big,.zoneh h2{font-size:22px}
 .tile h3{font-size:20px}
-.hart{min-height:170px}
+.hart{min-height:190px}
+.hartbg{width:min(44%,150px);bottom:8%;right:8%}
 /* mantener 3 columnas en tareas: más perspectiva */
 .trows{grid-template-columns:repeat(3,minmax(0,1fr))}
 .tlh{flex-direction:column;align-items:flex-start}
@@ -594,6 +598,9 @@ html[lang=en] .hhero h1{font-size:28px}
 @media (max-width:360px){
 .hhero h1{font-size:30px}
 .phero h1{font-size:30px}
+.hart{min-height:180px}
+.hartbg{width:min(42%,140px)}
+.hhf{margin-top:12px}
 .trows a{font-size:12.5px}
 .recs .rc{flex-basis:min(86vw,280px);padding:11px 12px}
 .btn{padding:9px 14px}
